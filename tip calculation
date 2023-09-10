@@ -1,0 +1,10 @@
+bill=input("what is the total bill? ")
+npeople=input("number of people? ")
+tip=input("how much tip do you want to add? ")
+
+b1=float(bill)
+n1=int(npeople)
+t1=float(tip)
+c1=(b1/n1)*t1
+c2=round((b1/n1)+c1, 2)
+message = print(f"Each person should pay: {c2}")
