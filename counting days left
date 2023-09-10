@@ -1,0 +1,10 @@
+age=input("what is your age?")
+a1 = int(age)
+days = (90-a1)*365
+a2 = str(days)
+weeks = (90-a1)*52
+a3 = str(weeks)
+months = (90-a1)*12
+a4 = str(months)
+
+print("You have " + a2 + " days, " + a3 + " weeks and " +a4+ " month left")
