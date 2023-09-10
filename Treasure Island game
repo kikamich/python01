@@ -1,0 +1,18 @@
+print("Welcome to Treasure Island. Your mission is to find the treasure.")
+question_1=input('Where do you want to go left (L) or right (R)')
+print(question_1)
+
+if question_1=="R":
+    print("Fall into a hole. Game Over")
+if question_1=="L":
+        question_2=input("swim or wait? ")
+        if question_2=="swim":
+            print("Attacked by trout.Game Over.")
+        if question_2=="wait":
+            question_3=input("Which door? red, blue or yellow ? ")
+            if question_3=="red":
+                print("Burned by fire.Game Over.")
+            if question_3=="blue":
+                question_4=input("Eaten by beasts.Game Over.")
+            if question_3=="yellow":
+                print("You Win!")
