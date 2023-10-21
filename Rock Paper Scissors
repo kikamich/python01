@@ -27,8 +27,6 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
-
 game_images=[rock, paper, scissors]
 
 user_choice =int(input("what do you choose, choose 0 for rock, 1 for paper, 2 for scissors\n")) #if you add \n it will take the answer to another line
